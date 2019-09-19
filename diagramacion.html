@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<meta charset="UTF-8">
+	<title>Diagramacion</title>
+</head>
+<body>
+	<h2 class="display-1">Grid Bootstrap</h2>
+	
+	<div class="lead">Al usar Col, los anchos son iguales</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col">celda2</div>
+		</div>
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col">celda2</div>
+			<div class="col">celda3</div>
+		</div>
+	</div>
+	
+	<div class="lead">W-100 aplica el 100% y empuja</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col">celda2</div>
+			<div class="w-100"></div>
+			<div class="col">celda3</div>
+			<div class="col">celda4</div>
+		</div>
+	</div>
+
+	<div class="lead">col-6 desplaza a las otras para acomodar los espacios</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col-6">celda2</div>
+			<div class="col">celda3</div>
+		</div>
+
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col-5">celda2</div>
+			<div class="col">celda3</div>
+		</div>	
+	</div>
+
+
+	<div class="lead">w-100 simula una celda de 100% y desplaza la otra</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col">celda2</div>
+			<div class="w-100"></div>
+			<div class="col">celda3</div>
+			<div class="col">celda4</div>
+		</div>
+	</div>
+
+	<div class="lead">el numero de col- representa un espacio de los 12 que hay</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">celda1</div>
+			<div class="col">celda2</div>
+			<div class="col">celda3</div>
+			<div class="col">celda4</div>
+		</div>
+		<div class="row">
+			<div class="col-8">celda1</div>
+			<div class="col-4">celda2</div>
+		</div>
+	</div>
+
+	<div class="lead">el espacio de una fila es de 12 y las demas se veran proporcionadas segun el numero que sean</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-8">celda1</div>
+			<div class="col-4">celda2</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">celda1</div>
+			<div class="col-sm">celda2</div>
+			<div class="col-sm">celda3</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
